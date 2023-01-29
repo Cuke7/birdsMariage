@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <p v-for="p in bird.box_comportement">
+        <p v-for="p in bird.box_comportement" class="text-white">
             {{ p }}
         </p>
     </div>
